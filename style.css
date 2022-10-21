@@ -1,4 +1,11 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2 {
     text-align: center;
 }
 #message {
@@ -7,14 +14,16 @@ h1 {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: lightcoral;
-    border: solid black 5px;
-    padding: 10px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* border: solid black 5px; */
+    /* padding: 10px; */
 }
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 70px;
     font-size: 30px;
     text-align: center;
 }
@@ -52,11 +61,11 @@ h1 {
     padding: 5px;
     margin-left: 25%;
 }
-#button1 {
-    background-color: white;
+#player-one {
+    text-align: center;
 }
-#button2 {
-    background-color: white;
+#player-two {
+    text-align: center;
 }
 #reset-button {
     text-align: center;
